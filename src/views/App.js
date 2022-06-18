@@ -1,10 +1,12 @@
 import React from 'react'; 
-import Contato from '../components/Contato';
+import Cadastro from '../components/Cadastro';
+import Navbar from '../components/Navbar';
 
 const App = () => {
     return ( 
         <>
-            <Contato />
+            <Navbar />
+            <Cadastro />
         </>
      );
 }
